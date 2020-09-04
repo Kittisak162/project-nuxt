@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    container_name: mysql
+    environment:
+      MYSQL_DATABASE: project-nuxt
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: Kittisak162
+      MYSQL_PASSWORD: hfgA6524
+    ports:
+    - '3306:3306'

@@ -16,8 +16,10 @@
     "@nuxt/typescript-runtime": "^1.0.0",
     "@nuxtjs/axios": "^5.12.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "mysql2": "^2.1.0",
     "nuxt": "^2.14.0",
-    "nuxt-buefy": "^0.3.31"
+    "nuxt-buefy": "^0.3.31",
+    "sequelize": "^6.3.5"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",
